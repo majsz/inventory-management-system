@@ -13,3 +13,11 @@ Python-based inventory management application with Firebird database integration
 - Firebird Database
 - SQL
 - Libraries: fdb, openpyxl, pyperclip, xhtml2pdf
+
+## Database Schema
+Required tables:
+- `inwentaryzacja`: produkt, ilosc, data, uzytkownik(id)
+- `uzytkownicy`: imie, nazwisko, login, haslo
+- `kategoria`: nazwa
+- `produkt`: kod, kategoria(id), firma(id)
+- `firmy`: nazwa
