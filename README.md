@@ -1,2 +1,15 @@
-# inventory-management-system
-Python inventory management application with Firebird database and multi-format reporting
+# Inventory Management System
+
+Python-based inventory management application with Firebird database integration.
+
+## Features
+- User authentication and login system
+- Product management (add, edit, remove)
+- Multi-format reporting (Excel, TXT, PDF, clipboard)
+- Database integration with SQL queries
+
+## Technologies
+- Python
+- Firebird Database
+- SQL
+- Libraries: fdb, openpyxl, pyperclip, xhtml2pdf
